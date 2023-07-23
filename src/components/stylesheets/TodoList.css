@@ -1,0 +1,30 @@
+.container-items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: no-wrap;
+}
+
+.btn-delete {
+	border-radius: 4px;
+	height: 2px;
+	width: 60px!important;
+	height: 30px!important;
+}
+
+.list-item {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 30px;
+	width: 100%;
+	text-align: center;
+	border: 2px solid white;
+}
+
+.taskTitle {
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.3rem;
+	word-wrap: break-word;
+	overflow: hidden;
+}
